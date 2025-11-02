@@ -33,13 +33,13 @@ const Navbar = () => {
           {/* -------menu---------- */}
           <div className="flex items-center gap-15">
             {menuitem.map((item, id) => (
-              <a
+              <Link
                 className="text-sm text-white hover:text-theme font-medium font-playfair"
                 key={id}
-                to={item.navLink}
+                href={item.navLink}
               >
                 {item.menuName}
-              </a>
+              </Link>
             ))}
           </div>
 

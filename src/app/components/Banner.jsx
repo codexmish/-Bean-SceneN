@@ -6,8 +6,7 @@ const Banner = () => {
   return (
     <>
       <section
-        className="main w-full bg-cover bg-center relative bg-red-500"
-        // style={{ backgroundImage: `url(${bgImg})` }}
+        className="main w-full bg-cover bg-center relative"
         style={{ backgroundImage: `url(${bgImg.src})` }}
       >
         {/* overlay */}
@@ -15,7 +14,6 @@ const Banner = () => {
         <div
           className="absolute z-0 bg-center bg-cover inset-0"
           style={{ backgroundImage: `url(${overlay.src})` }}
-        //   style={{ backgroundImage: `url(${overlay})` }}
         ></div>
 
         <div className="container relative z-10 px-6 lg:px-0">
