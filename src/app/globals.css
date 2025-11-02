@@ -1,26 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@utility container {
+  margin-inline: auto;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@theme {
+  /* ---Fonts */
+  --font-clicker: "Clicker Script", cursive;
+  --font-playfair: "Playfair Display", serif;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* ---Colors */
+  --color-theme: #F9C06A;
+  --color-cofee: #603809;
+  --color-text-black: #1E1E1E;
+  --color-secoundary-text: #707070;
+  --color-pink-bg: #FEF9F1;
 }
