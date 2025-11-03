@@ -23,7 +23,7 @@ const Discover = () => {
             </div>
           </div>
           <div className="right w-full lg:w-[500px]">
-            <Image src={beanMug} alt="BeanMug"/>
+            <Image src={beanMug} alt="BeanMug" />
           </div>
         </div>
       </section>

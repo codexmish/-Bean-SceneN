@@ -3,7 +3,7 @@ import CommonHead from "./common/CommonHead";
 import CommonFeedback from "./common/CommonFeedback";
 import person from "../images/person.png";
 import leftBlast from "../images/bottom-left-blast.png";
-import rightBlast from '../images/coffee_blast_right.png'
+import rightBlast from "../images/coffee_blast_right.png";
 import Image from "next/image";
 
 const Feedback = () => {

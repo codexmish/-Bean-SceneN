@@ -5,6 +5,7 @@ import Enjoy from './components/Enjoy'
 import Different from './components/Different'
 import Chance from './components/Chance'
 import Feedback from './components/Feedback'
+import Subscribe from './components/Subscribe'
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
     <Different/>
     <Chance/>
     <Feedback/>
+    <Subscribe/>
     
     </>
   )
