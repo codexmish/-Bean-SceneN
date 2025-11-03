@@ -3,6 +3,7 @@ import Banner from './components/Banner'
 import Discover from './components/Discover'
 import Enjoy from './components/Enjoy'
 import Different from './components/Different'
+import Chance from './components/Chance'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
     <Discover/>
     <Enjoy/>
     <Different/>
+    <Chance/>
     
     </>
   )
