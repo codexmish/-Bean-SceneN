@@ -20,7 +20,7 @@ const CommonProduct = ({ img, head, details, price }) => {
           </h2>
         </div>
 
-        <div className="sin-button absolute cursor-pointer left-[50%] -translate-x-[50%]  bottom-[-22px] w-[134px] h-[48px] flex items-center justify-center bg-theme text-sm text-text-black font-medium font-playfair rounded-full">
+        <div className="sin-button absolute cursor-pointer left-[50%] -translate-x-[50%]  bottom-[-22px] w-[134px] h-[49px] flex items-center justify-center bg-theme text-sm text-text-black font-medium font-playfair rounded-full">
           Order Now
         </div>
       </div>
