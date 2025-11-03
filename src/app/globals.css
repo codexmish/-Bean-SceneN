@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 @import "tailwindcss";
 
@@ -7,16 +7,15 @@
   margin-inline: auto;
 }
 
-
 @theme {
   /* ---Fonts */
   --font-clicker: "Clicker Script", cursive;
   --font-playfair: "Playfair Display", serif;
 
   /* ---Colors */
-  --color-theme: #F9C06A;
+  --color-theme: #f9c06a;
   --color-cofee: #603809;
-  --color-text-black: #1E1E1E;
+  --color-text-black: #1e1e1e;
   --color-secoundary-text: #707070;
-  --color-pink-bg: #FEF9F1;
+  --color-pink-bg: #fef9f1;
 }
