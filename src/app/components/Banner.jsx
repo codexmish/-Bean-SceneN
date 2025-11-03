@@ -30,7 +30,7 @@ const Banner = () => {
               our customers.
             </p>
 
-            <div className="sin-button w-[100px] lg:w-[134px] h-[38px] lg:h-[48px] flex items-center justify-center bg-theme text-xs lg:text-sm text-text-black font-medium font-playfair rounded-full">
+            <div className="sin-button w-[100px] lg:w-[134px] h-[38px] lg:h-[49px] flex items-center justify-center bg-theme text-xs lg:text-sm text-text-black font-medium font-playfair rounded-full">
               Order Now
             </div>
           </div>
